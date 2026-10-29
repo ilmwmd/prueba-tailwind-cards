@@ -134,15 +134,6 @@ La cuadrícula adapta el número de columnas al tamaño de la pantalla:
 - **Tabletas:** dos tarjetas por fila.
 - **Ordenadores:** tres tarjetas por fila.
 
-## 🚀 Posibles mejoras futuras
-
-- Añadir nuevos videojuegos.
-- Incorporar puntuaciones y fechas de lanzamiento.
-- Añadir un buscador de videojuegos.
-- Filtrar los títulos por género o plataforma.
-- Crear una página de detalles para cada videojuego.
-- Permitir ordenar las tarjetas por nombre o desarrollador.
-
 ## 📄 Licencia
 
 Proyecto educativo desarrollado con fines de aprendizaje. Los nombres y marcas de videojuegos pertenecen a sus respectivos propietarios. Comprueba las condiciones de uso de las imágenes que incorpores al proyecto.
