@@ -55,11 +55,11 @@ return (
 
           <li>
             <Videogame
-              name="Minecraft"
-              developer="Mojang Studios"
-              type="Sandbox y supervivencia"
+              name="Dead Cells"
+              developer="Motion Twin"
+              type="Metroidvania"
               platform="PC, PlayStation, Xbox, Switch y móviles"
-              image="Minecraft"
+              image="DeadCells"
             />
           </li>
 

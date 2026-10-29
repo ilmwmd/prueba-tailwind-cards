@@ -1,11 +1,11 @@
 
-const imagenes = import.meta.glob('../assets/*.png', {
+const imagenes = import.meta.glob('../*.jpg', {
   eager: true,
   import: 'default',
 });
 
 function Videogame(props) {
- const imagen = imagenes[`../assets/${props.image}.png`];
+  const imagen = imagenes[`../${props.image}.jpg`];
 
   return (
     <article
@@ -25,10 +25,12 @@ function Videogame(props) {
           className="absolute inset-0 bg-gray-800"
         />
       )}
+
       <div
         aria-hidden="true"
         className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black via-black/80 to-transparent"
       />
+
       <div className="relative z-10 w-full p-6 text-white">
         <h2
           id={`titulo-${props.image}`}
@@ -38,18 +40,15 @@ function Videogame(props) {
         </h2>
 
         <p className="mb-2 text-sm text-gray-100">
-          <strong>Desarrollador:</strong>{' '}
-          {props.developer}
+          <strong>Desarrollador:</strong> {props.developer}
         </p>
 
         <p className="mb-2 text-sm text-gray-100">
-          <strong>Género:</strong>{' '}
-          {props.type}
+          <strong>Género:</strong> {props.type}
         </p>
 
         <p className="text-sm text-gray-100">
-          <strong>Plataformas:</strong>{' '}
-          {props.platform}
+          <strong>Plataformas:</strong> {props.platform}
         </p>
       </div>
     </article>
